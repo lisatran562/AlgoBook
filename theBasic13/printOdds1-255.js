@@ -9,3 +9,14 @@ function printOdds1To255() {
 }
 
 printOdds1To255()
+
+function printOdds2() {
+    let i = 1;
+
+    while(i <= 255) {
+        console.log(i);
+        i += 2;
+    }
+}
+
+printOdds2()
